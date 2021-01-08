@@ -1,8 +1,8 @@
 
 @font-face
 {
-	font-family: "";
-	src: url();
+	font-family: "branding-sf-narrow-semi-bold-maisfontes";
+	src: url('../FONT/branding-sf-narrow-semi-bold-maisfontes.35f5.ttf');
 }
 
 @font-face
@@ -22,7 +22,61 @@
 
 /*------------------------------------------ NAVIGATION -----------------------------------------*/
 
-body
+#header
 {
-	margin: 0;
+	margin-top: -2%;
+}
+
+
+
+/*---------------------------------------- DESCRIPTION ----------------------------------------*/
+
+ul li
+{
+	color: #efefef;
+}
+
+/*------------------------------------------- MAPS --------------------------------------------*/
+
+#mapid
+{ 
+	width: 1000px;
+	height: 550px; 
+}
+
+
+.meteo
+{
+	background-image: url('../IMAGES/METEO/nuage.jpg');
+}
+
+#city
+{
+	font-family: "branding-sf-narrow-semi-bold-maisfontes";
+	color: #efefef;
+	font-size: 5em;
+	letter-spacing: 0.2rem;
+}
+
+
+#description
+{
+	font-family: "branding-sf-narrow-semi-bold-maisfontes";
+}
+
+#temp
+{
+	font-family: "branding-sf-narrow-semi-bold-maisfontes";
+	color: #d3d1d1;
+	font-size: 3em;
+}
+
+#humidity
+{
+	font-family: "branding-sf-narrow-semi-bold-maisfontes";
+}
+
+#wind
+{
+	font-family: "branding-sf-narrow-semi-bold-maisfontes";
 }

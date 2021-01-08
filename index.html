@@ -15,6 +15,13 @@
 	<!-- STYLE CSS -->
 	<link rel="stylesheet" type="text/css" href="ASSETS/CSS/style.css">
 
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+
+ 	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
 </head>
 
 
@@ -213,7 +220,127 @@
 
 
 
+	<!------------------------------ DESCRIPTION ----------------------------------->
+			<div class="container-fluid bg-dark p-4 my-5">
+				<div class="container mt-5">
+					<div class="row">
+	 					<div class="col-6 col-lg-6 pt-5 mt-5">
+	 						<img src="ASSETS/IMAGES/DESCRIPTION/moi.jpg">
+	 					</div>
+
+	 					<div class="col-6 col-lg-6">
+
+
+	 							<ul>
+	 								<li>Les cinq marqueurs que j'aie choisi sont :</li><br>
+
+	 								<li>La via domitia, car il s'agit d'un lieu culturel où l'on peut rencontrer des gens de toutes les nationalités. Lorsque j'étais plus jeune il s'agissait d'un endroit où l'on se faisait des amis avec qui l'on jouait sans avoir besoin de parler la même langue.</li><br>
+
+	 								<li>L'enseigne Simply Tattoo que j'affectionne tout particulièrement car j'y ai fait tous mes piercings, que le perceur nous met en confiance et l'accueil y est fortement agréable.</li><br>
+
+	 								<li>Yves Rocher car j'ai pu y aller un bon nombre de fois, j'adore leurs produits et les personnes qui y travaillent sont charmantes et très avenantes.</li><br>
+
+	 								<li>Le magasin Cultura car étant férue de dessin et de livres, il s'agit des prémices de mon paradis personnel. En effet j'aime y passer du temps pour lire et trouver quelques bouquins, acheter du matériel pour dessiner ou encore passer une heure dans les rayons sans même finir par acheter quelque chose.</li><br>
+	 								
+	 								<li>Et pour terminer, le McDonald's de Bonne source, mon second chez-moi, ma résidence secondaire, mon refuge. Que ce soit lorsque j'étais petite et qu'il était exceptionnel d'y aller ou entre deux cours lorsque j'étais au lycée ou encore avec des amis maintenant que j'ai grandi, ce lieu reste gravé dans mes souvenirs et je compte bien y retourner un paquet de fois.</li>
+	 							</ul>
+
+	 					</div>					
+	 				</div>
+	 			</div>
+	 		</div>
+	<!----------------------------- FIN DESCRIPTION --------------------------------->
+
+
+
+
+
+
+	<!---------------------------------- MAPS -------------------------------------->
+			<div class="container-fluid p-4 my-5">
+				<div class="container my-5">
+					<div class="row">
+	 					<div class="col-12 col-lg-12" id="mapid"></div>
+	 				</div>
+	 			</div>
+	 		</div>
+	<!-------------------------------- FIN MAPS ------------------------------------>
+
+
+
+
+
+
+
+	<!---------------------------------- METEO -------------------------------------->
+		<div class="container-fluid bg-dark meteo p-4 my-5">
+			<div class="container text-center">
+				<div class="row">
+				
+				<div class="col-lg-12 col-12 my-5" id="city"></div>
+				<div class="col-lg-12 col-12 my-5" id="description"></div>	
+				<div class="col-lg-12 col-12 my-5" id="temp"></div>
+				<div class="col-lg-12 col-12 my-5" id="humidity"></div>
+				<div class="col-lg-12 col-12 pb-5 mb-5" id="wind"></div>
+
+				</div>
+			</div>
+		</div>
+	<!-------------------------------- FIN METEO ------------------------------------>
+
+
+
+
+
+	<!--------------------------------- FOOTER ------------------------------------->
+
+	    <footer id="footer">
+	        
+				<div class="topfooter">
+				    <div class="titre">
+				        <div>Restons <span>en contact</span></div>
+				    </div>
+				    <div class="inner-menu">
+				        <ul class="menu"><li class="menu__item is-leaf first leaf newsletter"><a href="/newsletter" title="" class="menu__link"><span>Newsletter</span></a></li>
+				<li class="menu__item is-leaf leaf sms-flash"><a href="/sms-flash" title="L&#039;INFO A LA CARTE SUR VOTRE PORTABLE" class="menu__link"><span>SMS flash</span></a></li>
+				<li class="menu__item is-leaf leaf twitter"><a href="https://twitter.com/villedenarbonne" title="Accédez au compte Twitter de la ville" class="menu__link"><span>Twitter</span></a></li>
+				<li class="menu__item is-leaf leaf facebook"><a href="https://www.facebook.com/villedenarbonne" title="Accédez à la page Facebook de la ville" class="menu__link"><span>Facebook</span></a></li>
+				<li class="menu__item is-leaf last leaf instagram"><a href="https://www.instagram.com/villedenarbonne" title="Accédez au compte Instagram de la ville" class="menu__link"><span>Instagram</span></a></li>
+				</ul>    </div>
+				</div><div class="coordonnee clearfix">
+				    <div class="inner">
+				        <div class="content left">
+				            <div class="logo-titre">
+				                <a href="/" ><img src="https://www.narbonne.fr/sites/all/themes/narbonne/images-source/logo-footer.png" alt="Narbonne"></a>
+				            </div>
+				            <div class="block">
+				                <p><strong>MAIRIE DE NARBONNE</strong><br />Place de l'Hôtel-de-Ville<br />CS 80823<br />11785 Narbonne cedex</p>
+				<div class="tel"><a class="contact-phone" data-tel="0468903030" style="text-decoration:none;display:inline;">04 68 90 30 30</a></div>
+				<div class="bouton-rouge"><a href="/node/154">Nous <strong>contacter</strong></a></div>
+				            </div>
+				        </div>
+				        <div class="carto right"><img src="https://www.narbonne.fr/sites/all/themes/narbonne/images-source/carto-footer.png" alt="Narbonne"></div>
+				    </div>
+				</div>
+
+				    </footer>
+				    <footer id="bandeauBas">
+				        
+				<div class="liens-footer"><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/espace-presse" title="" class="menu__link">Espace presse</a></li>
+				<li class="menu__item is-leaf leaf"><a href="/commande-publique" title="" class="menu__link">Espace professionnel</a></li>
+				<li class="menu__item is-leaf leaf"><a href="/mon-compte-association-authentification" title="" class="menu__link">Espace associations</a></li>
+				<li class="menu__item is-leaf leaf"><a href="/mentions-legales" title="" class="menu__link">Mentions légales</a></li>
+				<li class="menu__item is-leaf last leaf"><a href="/sitemap" title="" class="menu__link">Plan du site</a></li>
+				</ul></div>
+	    </footer>
+
+
+<!----------------------------- FIN FOOTER --------------------------------->
+
+
+
 <!---------------------------------------------- SCRIPT BOOTSTRAP -------------------------------------------->
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
